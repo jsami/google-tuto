@@ -52,7 +52,7 @@ void CalcMethod3(int weeklySales) {
 
 int main() {
   int WeeklySales = GetInput();
-  if(weeklySales = 0)
+  if(weeklySales == 0)
     return 0;
   CalcMethod1(WeeklySales);
   CalcMethod2(WeeklySales);
