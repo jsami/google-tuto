@@ -8,9 +8,11 @@ int main() {
 
   ifstream People(file_name, ios::in);
   string line;
-  while(getline(People, line)) {
-    cout << line << endl;
+  if (People.is_open()) {
+    while (getline(People, line)) {
+      cout << line << endl;
+    }
+    People.close();
   }
-  People.close();
   return 0;
 }
