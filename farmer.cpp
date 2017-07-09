@@ -3,35 +3,50 @@
 #include <limits>
 using namespace std;
 
+#define kHorsePrice   10
+#define kPigPrice     3
+#define kRabbitPrice  0.5
+#define kTotalPrice   100
+#define kTotalNumber  100
+
 bool AreSame(double l, double r) {
   return fabs(l - r) < numeric_limits<double>::epsilon();
 }
 
-bool CheckAnimals(int horse, int pig, int rabbit) {
-  int totalNumber = horse + pig + rabbit;
-  double totalPrice = 10 * horse + 3 * pig + 0.5 * rabbit;
-  return (totalNumber == 100) && AreSame(totalPrice, 100);
+bool CheckAnimals(int n_horse, int n_pig, int n_rabbit) {
+  int total_number = n_horse + n_pig + n_rabbit;
+  double totalPrice = kHorsePrice * n_horse + kPigPrice * n_pig + kRabbitPrice * n_rabbit;
+  return (total_number == kTotalNumber) && AreSame(totalPrice, kTotalPrice);
+}
+
+int MaxNumber(double price) {
+  int max = (int)kTotalPrice / price;
+  return max < kTotalNumber ? max : kTotalNumber;
 }
 
 int main() {
-  int nPig, nHorse, nRabbit;
-  bool combinationFound = false;
-  for (nHorse = 1; nHorse < 10 && !combinationFound; ) {
-    combinationFound = CheckAnimals(nHorse, nPig, nRabbit);
-    for (nPig = 1; nPig < 33 && !combinationFound; ) {
-      combinationFound = CheckAnimals(nHorse, nPig, nRabbit);
-      for (nRabbit = 1; nRabbit < 100 && !combinationFound; nRabbit++) {
-        if ((combinationFound = CheckAnimals(nHorse, nPig, nRabbit)))
+  int n_pig, n_horse, n_rabbit;
+  int max_horse = MaxNumber(kHorsePrice);
+  int max_pig = MaxNumber(kPigPrice);
+  int max_rabbit = MaxNumber(kRabbitPrice);
+
+  bool combination_found = false;
+  for (n_horse = 1; n_horse < max_horse && !combination_found; ) {
+    combination_found = CheckAnimals(n_horse, n_pig, n_rabbit);
+    for (n_pig = 1; n_pig < max_pig && !combination_found; ) {
+      combination_found = CheckAnimals(n_horse, n_pig, n_rabbit);
+      for (n_rabbit = 1; n_rabbit < max_rabbit && !combination_found; n_rabbit++) {
+        if ((combination_found = CheckAnimals(n_horse, n_pig, n_rabbit)))
           break;
       }
-      if(!combinationFound)
-        nPig++;
+      if(!combination_found)
+        n_pig++;
     }
-    if(!combinationFound)
-      nHorse++;
+    if(!combination_found)
+      n_horse++;
   }
 
-  cout << "Pig: " << nPig << endl;
-  cout << "Horse: " << nHorse << endl;
-  cout << "Rabbit: " << nRabbit << endl;
+  cout << "Pig: " << n_pig << endl;
+  cout << "Horse: " << n_horse << endl;
+  cout << "Rabbit: " << n_rabbit << endl;
 }
