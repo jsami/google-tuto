@@ -33,7 +33,7 @@ int main() {
           sums[sumIndx] += 11;
           cout << "sum is odd, increase by 11 => " << sums[sumIndx] << endl;
         }
-        else if(sums[sumIndx] > 2) {
+        else if(sums[sumIndx] > 9) {
           sums[sumIndx] -= 11;
           cout << "sum is odd, decrease by 11 => " << sums[sumIndx] << endl;
         }
