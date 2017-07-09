@@ -9,7 +9,7 @@ using namespace std;
 #define kMaxCannonBalls     10
 #define kGravity            32.2
 #define kVelocity           200.0
-#define PI                  3.14159265
+#define kPi                 3.14159265
 #define kMinTolerance       -2
 #define kMaxTolerance       2
 
@@ -30,7 +30,7 @@ int GetEnemyDistance() {
 double GetShootAngle() {
   double angle = 0;
   cout << "What angle? "; cin >> angle;
-  return angle * PI / 180;
+  return angle * kPi / 180;
 }
 
 double Shoot(double angle, int target_distance) {
