@@ -4,13 +4,13 @@
 using namespace std;
 
 
-const string months[12] = {"Jan", "Feb", "Mar", "Apr", "May", "Jun", 
+const string kMonths[12] = {"Jan", "Feb", "Mar", "Apr", "May", "Jun", 
                            "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"};
 
 string GetMonth(const string& code) {
   string map = "ABCDEFGHIJKL";
   int index = map.find(code[0]);
-  return months[index];
+  return kMonths[index];
 }
 
 int GetDate(const string& code) {
