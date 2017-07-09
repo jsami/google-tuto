@@ -20,6 +20,7 @@ int main() {
     cout << "remainder of " << input << " : " << remainderNames[i] << " = " << remainders[i] << endl;
     input = Rotate(input);
   }
+  cout << "------------------------" << endl;
 
   // manipulates sums
   int sums[3];
