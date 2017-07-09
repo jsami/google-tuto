@@ -1,5 +1,5 @@
-// time.cpp, Maggie Johnson
-// Description: A simple time class.
+// time.cpp, Sami Ramahasindry
+// Description: A simple time class. Implement decrement method
 
 #include <iostream>
 using namespace std;

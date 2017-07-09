@@ -1,3 +1,6 @@
+// accelerate.cpp, Sami Ramahasindry
+// Using pass by reference to modify the value of a variable
+
 #include <iostream>
 using namespace std;
 
