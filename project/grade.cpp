@@ -1,3 +1,6 @@
+// grade.cpp, Sami Ramahasindry
+// calculate final grade
+
 #include <iostream>
 #include <string>
 using namespace std;

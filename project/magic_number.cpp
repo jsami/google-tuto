@@ -1,3 +1,6 @@
+// magic_number.cpp, Sami Ramahasindry
+// Illustrate how we get the magic number 1089
+
 #include <iostream>
 #include <string>
 using namespace std;

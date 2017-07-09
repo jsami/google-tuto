@@ -1,20 +1,24 @@
+// card_trick.cpp, Sami Ramahasindry
+// Number version of a card trick
+
 #include <iostream>
 #include <string>
 using namespace std;
 
-#define   kNumberOfDigits  3
+#define kNumberOfDigits  3
 
 const char kRemainderNames[3] = {'X', 'Y', 'Z'};
 
-int Rotate(int input) {
-  int firstDigit = input / 100;
-  return (input % 100) * 10 + firstDigit;
-}
 
 int GetInput() {
   int input;
   cout << "Input 3 digits number: "; cin >> input;
   return input;
+}
+
+int Rotate(int input) {
+  int firstDigit = input / 100;
+  return (input % 100) * 10 + firstDigit;
 }
 
 void PopulateRemainders(int* remainders, int input) {
@@ -32,7 +36,7 @@ void Half(int& n) {
   cout << "------------------------" << endl;
 }
 
-// return true if we hit 9. false otherwise
+// card_trick.cpp, Sami Ramahasindry
 bool AdjustOdd(int& n) {
   if (!(n % 2))
     return false;

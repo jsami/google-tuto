@@ -1,3 +1,6 @@
+// pointer1.cpp, Sami Ramahasindry
+// Pointer in action
+
 #include <iostream>
 using namespace std;
 

@@ -1,3 +1,6 @@
+// read_file.cpp, Sami Ramahasindry
+// Reading from a file in loop
+
 #include <fstream>
 #include <iostream>
 using namespace std;

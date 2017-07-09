@@ -1,3 +1,6 @@
+// file3.cpp, Sami Ramahasindry
+// Writing to / reading from file
+
 #include <fstream>
 #include <iostream>
 using namespace std;

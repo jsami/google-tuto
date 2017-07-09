@@ -1,4 +1,4 @@
-// scope.cpp, Maggie Johnson
+// scope.cpp, Sami Ramahasindry
 // Description: A program to illustrate different scopes
 
 #include <iostream>

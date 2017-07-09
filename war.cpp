@@ -1,3 +1,6 @@
+// war.cpp, Sami Ramahasindry
+// War game in which we shoot enemy with cannon by adjusting shoot angle
+
 #include <iostream>
 #include <cstdlib>
 #include <cmath>

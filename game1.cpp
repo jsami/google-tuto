@@ -1,3 +1,6 @@
+// game1.cpp, Sami Ramahasindry
+// Secret number guessing
+
 #include <iostream>
 #include <cstdlib>
 #include <time.h>
@@ -6,7 +9,6 @@ using namespace std;
 const int kSuccess = 1;
 const int kFailure = 0;
 
-// Generate a pseudo random number betwen `min` and `max`
 int GenerateRandom(int min, int max) {
   srand(time(NULL));
   return rand() % max + min;

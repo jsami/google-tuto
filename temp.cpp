@@ -1,3 +1,6 @@
+// temp.cpp, Sami Ramahasindry
+// Printing 4 Hello World in a line for 6 lines
+
 #include <iostream>
 using namespace std;
 

@@ -1,3 +1,6 @@
+// chirp_vs_temperature.cpp, Sami Ramahasindry
+// calculate temperature in funciton of the chirps per minute
+
 #include <iostream>
 using namespace std;
 

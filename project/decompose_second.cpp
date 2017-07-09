@@ -1,3 +1,6 @@
+// decompose_second.cpp, Sami Ramahasindry
+// calculate hour, minute and second from number of seconds
+
 #include  <iostream>
 using namespace std;
 

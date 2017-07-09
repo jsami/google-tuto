@@ -1,3 +1,6 @@
+// file2.cpp, Sami Ramahasindry
+// Writing to / reading from file
+
 #include <fstream>
 #include <iostream>
 using namespace std;
@@ -7,7 +10,7 @@ int main() {
   int age;
   char file_name[20];
 
-  // Collect the data.
+  // file2.cpp, Sami Ramahasindry
   cout << "Enter First Name: ";
   cin >> first_name;
   cout << "Enter Last Name:  ";

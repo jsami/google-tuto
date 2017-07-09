@@ -1,3 +1,6 @@
+// gcd.cpp, Sami Ramahasindry
+// Finding GCD of two numbers by Euclidian algorithm
+
 #include <iostream>
 using namespace std;
 
@@ -7,7 +10,6 @@ void Swap(int& a, int& b) {
   a = a - b;
 }
 
-// Euclidian algorithm: gcd(a, b) = gcd(b, r) with: a = b * q + r, 0<= r <b
 int Gcd(int a, int b) {
   if (a < b) {
     Swap(a, b);

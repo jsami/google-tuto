@@ -1,11 +1,15 @@
+// exp_date.cpp, Sami Ramahasindry
+// Decode encoded experation date on a food product eticket
+
 #include <iostream>
 #include <sstream>
 #include <string>
 using namespace std;
 
 
-const string kMonths[12] = {"Jan", "Feb", "Mar", "Apr", "May", "Jun", 
-                           "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"};
+const string kMonths[12] = {"Jan", "Feb", "Mar", "Apr", "May", "Jun",
+                            "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
+                           };
 
 string GetMonth(const string& code) {
   string map = "ABCDEFGHIJKL";
@@ -27,10 +31,9 @@ int GetYear(const string& code) {
 }
 
 string Decode(const string& code) {
-  string decoded;
   stringstream ss;
   ss << GetMonth(code) << "-" << GetDate(code) << "-" << GetYear(code);
-  ss >> decoded;
+  string decoded; ss >> decoded;
   return decoded;
 }
 
