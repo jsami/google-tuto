@@ -2,6 +2,8 @@
 #include <string>
 using namespace std;
 
+#define   kNumberOfDigits  3
+
 const char kRemainderNames[3] = {'X', 'Y', 'Z'};
 
 int Rotate(int input) {
@@ -13,8 +15,8 @@ int main() {
   int input;
   cout << "Input 3 digits number: "; cin >> input;
   // manipulate remainders
-  int remainders[3];
-  for (int i = 0; i < 3; i++) {
+  int remainders[kNumberOfDigits];
+  for (int i = 0; i < kNumberOfDigits; i++) {
     remainders[i] = input % 11;
     cout << "remainder of " << input << " : " << kRemainderNames[i] << " = " << remainders[i] << endl;
     input = Rotate(input);
@@ -22,10 +24,10 @@ int main() {
   cout << "------------------------" << endl;
 
   // manipulates sums
-  int sums[3];
+  int sums[kNumberOfDigits];
   int sumIndx = 0;
-  for (int i = 0; i < 2; i++) {
-    for (int j = i + 1; j < 3; j++) {
+  for (int i = 0; i < kNumberOfDigits-1; i++) {
+    for (int j = i + 1; j < kNumberOfDigits; j++) {
       sums[sumIndx] = remainders[i] + remainders[j];
       cout << kRemainderNames[i] << "+" << kRemainderNames[j] << " = " << sums[sumIndx] << endl;
       if (sums[sumIndx] % 2) {
