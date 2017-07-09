@@ -8,8 +8,7 @@ using namespace std;
 
 
 const string kMonths[12] = {"Jan", "Feb", "Mar", "Apr", "May", "Jun",
-                            "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
-                           };
+                            "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"};
 
 string GetMonth(const string& code) {
   string map = "ABCDEFGHIJKL";
