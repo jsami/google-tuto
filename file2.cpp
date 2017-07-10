@@ -10,7 +10,6 @@ int main() {
   int age;
   char file_name[20];
 
-  // file2.cpp, Sami Ramahasindry
   cout << "Enter First Name: ";
   cin >> first_name;
   cout << "Enter Last Name:  ";

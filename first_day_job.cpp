@@ -4,7 +4,7 @@
 #include <iostream>
 using namespace std;
 
-#define kSalesDay = 6  // first_day_job.cpp, Sami Ramahasindry
+#define kSalesDay = 6  
 #define kWorkHour = 8    // 8 hours per day;
 #define kAveragePairPrice = 225
 #define kCommission2 = 0.1   // commission = 10% on sales

@@ -8,7 +8,7 @@ using namespace std;
 int main() {
   char first_name[30], last_name[30]; int age;
   char file_name[20];
-  // file.cpp, Sami Ramahasindry
+
   cout << "Enter First Name: "; cin >> first_name;
   cout << "Enter Last Name: "; cin >> last_name;
   cout << "Enter Age: "; cin >> age;
