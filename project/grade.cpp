@@ -37,6 +37,7 @@ double FinalExamGrade() {
 }
 
 double ClassParticipationGrade() {
+
   double score = GetScore("section grade");
   return score * kClassParticipationCoeff;
 }

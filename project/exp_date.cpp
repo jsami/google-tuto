@@ -6,9 +6,11 @@
 #include <string>
 using namespace std;
 
+#define kYearStart      1999
 
 const string kMonths[12] = {"Jan", "Feb", "Mar", "Apr", "May", "Jun",
                             "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"};
+
 
 string GetMonth(const string& code) {
   string map = "ABCDEFGHIJKL";
@@ -26,7 +28,7 @@ int GetDate(const string& code) {
 int GetYear(const string& code) {
   string map = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
   int offset = map.find(code[3]);
-  return 1995 + offset;
+  return kYearStart + offset;
 }
 
 string Decode(const string& code) {

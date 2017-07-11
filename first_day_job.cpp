@@ -4,11 +4,11 @@
 #include <iostream>
 using namespace std;
 
-#define kSalesDay = 6  
-#define kWorkHour = 8    // 8 hours per day;
-#define kAveragePairPrice = 225
-#define kCommission2 = 0.1   // commission = 10% on sales
-#define kCommission3 = 0.2  // commision = 20% on sales
+#define kSalesDay           6  
+#define kWorkHour           8    // 8 hours per day;
+#define kAveragePairPrice   225
+#define kCommission2        0.1   // commission = 10% on sales
+#define kCommission3        0.2  // commision = 20% on sales
 
 void Prompt() {
   cout << "Weekly Sales (pairs of shoes): ";
@@ -54,10 +54,10 @@ void CalcMethod3(int weeklySales) {
 }
 
 int main() {
-  int WeeklySales = GetInput();
-  if(weeklySales == 0)
+  int weekly_sales = GetInput();
+  if(weekly_sales == 0)
     return 0;
-  CalcMethod1(WeeklySales);
-  CalcMethod2(WeeklySales);
-  CalcMethod3(WeeklySales);
+  CalcMethod1(weekly_sales);
+  CalcMethod2(weekly_sales);
+  CalcMethod3(weekly_sales);
 }
