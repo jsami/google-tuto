@@ -18,7 +18,6 @@ bool IsSeriesSumAndPerfectSquare(int n) {
     if (SeriesSum(i) == n && is_perfect_square) {
       cout << "Sum of serie from 1 to " << i << endl;
       cout << "Square of " << root << endl;
-      k
       return true;
     }
   }
