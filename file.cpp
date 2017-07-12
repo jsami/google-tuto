@@ -13,7 +13,7 @@ int main() {
   cout << "Enter Last Name: "; cin >> last_name;
   cout << "Enter Age: "; cin >> age;
   cout << endl << "Enter the name of the file: "; cin >> file_name;
-
+  
   // Create an ofstream called People, open the stream for output.
   ofstream People(file_name, ios::out);
   // Write the output to the stream.

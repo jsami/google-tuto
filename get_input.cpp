@@ -4,8 +4,8 @@
 #include <iostream>
 using namespace std;
 
-#define kSuccess = 1;
-#define kFailure = 0;
+#define kSuccess  1
+#define kFailure  0
 
 int TryGetInput(int& input) {
   cout << "Enter a number (-1 = quit): ";

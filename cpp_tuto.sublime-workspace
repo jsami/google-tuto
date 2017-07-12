@@ -1,0 +1,1215 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"local",
+				"localhost"
+			],
+			[
+				"pb",
+				"pbio-2428"
+			],
+			[
+				"Local",
+				"Localization"
+			],
+			[
+				"f",
+				"fasttrack"
+			],
+			[
+				"start",
+				"startDate"
+			],
+			[
+				"Clock",
+				"clockStep"
+			],
+			[
+				"Un",
+				"UN_TOKENIZED"
+			],
+			[
+				"Pro",
+				"ProductSettingsName"
+			],
+			[
+				"si",
+				"SiteSettingsName"
+			],
+			[
+				"Ve",
+				"Versions"
+			],
+			[
+				"back",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "books_arrange.cpp",
+			"settings":
+			{
+				"buffer_size": 502,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/user.PBIO-2428/AppData/Roaming/Sublime Text 3/Packages/User/YcmdCompletion.sublime-settings",
+			"settings":
+			{
+				"buffer_size": 216,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "first_day_job.cpp",
+			"settings":
+			{
+				"buffer_size": 1684,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 292.0,
+		"last_filter": "ycmd",
+		"selected_items":
+		[
+			[
+				"ycmd",
+				"Ycmd: Settings - User"
+			],
+			[
+				"lower",
+				"Convert Case: Lower Case"
+			],
+			[
+				"setht",
+				"Set Syntax: HTML"
+			],
+			[
+				"pret",
+				"HTMLPrettify"
+			],
+			[
+				"indexm",
+				"Indent XML"
+			],
+			[
+				"c#",
+				"Set Syntax: C#"
+			],
+			[
+				"pwo",
+				"Set Syntax: PowerShell"
+			],
+			[
+				"setc#",
+				"Set Syntax: C#"
+			],
+			[
+				"seth",
+				"Set Syntax: HTML"
+			],
+			[
+				"ja",
+				"Set Syntax: Java"
+			],
+			[
+				"lo",
+				"Convert Case: Lower Case"
+			],
+			[
+				"low",
+				"Convert Case: Lower Case"
+			],
+			[
+				"setja",
+				"Set Syntax: Java"
+			],
+			[
+				"setxm",
+				"Set Syntax: XML"
+			],
+			[
+				"sq",
+				"Set Syntax: SQL"
+			],
+			[
+				"setsq",
+				"Set Syntax: SQL"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"add",
+				"Package Control: Add Repository"
+			],
+			[
+				"indj",
+				"Indent JSON"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"pacakin",
+				"Package Control: Install Package"
+			],
+			[
+				"new",
+				"Notes: New…"
+			],
+			[
+				"indjs",
+				"Indent JSON"
+			],
+			[
+				"inde",
+				"Indent JSON"
+			],
+			[
+				"set",
+				"Set Syntax: JSON"
+			],
+			[
+				"setjs",
+				"Set Syntax: JSON"
+			],
+			[
+				"inde ",
+				"Indent JSON"
+			],
+			[
+				"setj",
+				"Set Syntax: JSON"
+			],
+			[
+				"set c#",
+				"Set Syntax: C#"
+			],
+			[
+				"set xm",
+				"Set Syntax: XML"
+			],
+			[
+				"prett",
+				"HTMLPrettify"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"ind",
+				"Auto indent"
+			],
+			[
+				"setxml",
+				"Set Syntax: HTML"
+			],
+			[
+				"setc",
+				"Set Syntax: Objective-C++"
+			],
+			[
+				"setjso",
+				"Set Syntax: JSON"
+			],
+			[
+				"setasp",
+				"Set Syntax: ASP"
+			],
+			[
+				"setas",
+				"Set Syntax: AppleScript"
+			],
+			[
+				"asp",
+				"Set Syntax: HTML (ASP)"
+			],
+			[
+				"setx",
+				"Set Syntax: XML"
+			],
+			[
+				"x",
+				"Set Syntax: XML"
+			],
+			[
+				"s",
+				"Set Syntax: XML"
+			],
+			[
+				"stxm",
+				"Set Syntax: TeX Math"
+			],
+			[
+				"tas",
+				"Tasks: New document"
+			],
+			[
+				"not",
+				"Notes: New…"
+			],
+			[
+				"no",
+				"Notes: New…"
+			],
+			[
+				"noteli",
+				"Notes: List…"
+			],
+			[
+				"notli",
+				"Notes: List…"
+			],
+			[
+				"ad",
+				"Package Control: Add Repository"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Indent XML"
+			],
+			[
+				"addbo",
+				"SublimeBookmarks: Add Bookmark"
+			],
+			[
+				"SETXM",
+				"Set Syntax: XML"
+			],
+			[
+				"IND",
+				"Indent XML"
+			],
+			[
+				"te",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"set sq",
+				"Set Syntax: SQL"
+			],
+			[
+				"takne",
+				"Tasks: New document"
+			],
+			[
+				"ins",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"packageremo",
+				"Package Control: Remove Package"
+			],
+			[
+				"packain",
+				"Package Control: Install Package"
+			],
+			[
+				"text",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"scala",
+				"Set Syntax: Scala"
+			],
+			[
+				"indej",
+				"Indent JSON"
+			],
+			[
+				"xml",
+				"Set Syntax: XML"
+			],
+			[
+				"indent",
+				"Auto indent"
+			],
+			[
+				"se",
+				"Set Syntax: XML"
+			],
+			[
+				"lis",
+				"Set Syntax: Lisp"
+			],
+			[
+				"setli",
+				"Set Syntax: Lisp"
+			],
+			[
+				"c",
+				"Set Syntax: C#"
+			],
+			[
+				"htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"as",
+				"Set Syntax: ASP"
+			],
+			[
+				"regex",
+				"Set Syntax: Regular Expression"
+			],
+			[
+				"ens",
+				"Ensime: Startup"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"scal",
+				"Set Syntax: Scala"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"set xml",
+				"Set Syntax: XML"
+			],
+			[
+				"xm",
+				"Set Syntax: XML"
+			],
+			[
+				"setpla",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"emm",
+				"Emmet: Reload Extensions"
+			],
+			[
+				"sethtm",
+				"Set Syntax: HTML"
+			],
+			[
+				"set plain",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"table enab",
+				"Table Editor: Enable for current syntax"
+			],
+			[
+				"table",
+				"Table Editor: Show demo film in new scratch view"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"add re",
+				"Package Control: Add Repository"
+			],
+			[
+				"up",
+				"Convert Case: Upper Case"
+			],
+			[
+				"upp",
+				"Convert Case: Upper Case"
+			],
+			[
+				"addre",
+				"Package Control: Add Repository"
+			]
+		],
+		"width": 536.0
+	},
+	"console":
+	{
+		"height": 244.0,
+		"history":
+		[
+			"view.encoding()",
+			"import subprocess; print(subprocess.check_output(['where', 'sbt'], stderr=subprocess.STDOUT).decode(\"utf-8\"))",
+			"import subprocess; print(subprocess.check_output(['where', 'java'], stderr=subprocess.STDOUT).decode(\"utf-8\"))",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/C/Users/user.PBIO-2428/perso/tools/YcmdCompletion/ycmd/exceptions.py",
+		"/C/Users/user.PBIO-2428/AppData/Roaming/Sublime Text 3/Packages/Anaconda/Default (Windows).sublime-keymap",
+		"/C/Users/user.PBIO-2428/.ssh/known_hosts",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/DotCom/pg-growing-families/solr.ps1",
+		"/C/Users/user.PBIO-2428/Documents/tmp/pdf.html",
+		"/C/Users/user.PBIO-2428/Dropbox/prox_email.txt",
+		"/C/Users/user.PBIO-2428/Dropbox/Notes/config_px.txt",
+		"/C/DotCom/pg-growing-families/PG.GrowingFamilies.Version1.Test/bin/Sandbox/PG.GrowingFamilies.Version1.Test.dll.config",
+		"/C/DotCom/pg-growing-families/sandbox/Website/Areas/ScoreBootstrapUI/Views/Shared/Content/_Lead.cshtml",
+		"/C/DotCom/pg-growing-families/PG.GrowingFamilies.Version1.TDS.Master.Content/obj/IconCache/Map.xml",
+		"/C/DotCom/pg-growing-families/PG.GrowingFamilies.Version1.TDS.Master/obj/IconCache/Map.xml",
+		"/C/Users/user.PBIO-2428/Documents/tmp/expert_banner2.html",
+		"/C/DotCom/pg-growing-families/sandbox/Website/sitecore/shell/client/Score/ExperienceEditor/SitecoreApiWrapper.js",
+		"/C/DotCom/pg-growing-families/sandbox/Website/Areas/ScoreBootstrapUI/Views/Shared/Containers/Structural/_Column3.cshtml",
+		"/C/DotCom/pg-growing-families/PG.GrowingFamilies.Version1.Web/PG.GrowingFamilies.Version1.Web.csproj",
+		"/C/Users/user.PBIO-2428/vs2017/Response.json",
+		"/C/Users/user.PBIO-2428/Desktop/Sami backup/txts/key_chain.key",
+		"/C/DotCom/pg-growing-families/PG.GrowingFamilies.Version1.sln",
+		"/C/DotCom/pg-growing-families/PG.GrowingFamilies.Version1.TDS.Master/PG.GrowingFamilies.Version1.TDS.Master.scproj",
+		"/C/DotCom/pg-growing-families/PG.GrowingFamilies.Version1.Web/LightweightBuild.ps1",
+		"/C/DotCom/pg-growing-families/PG.GrowingFamilies.Version1.Base/PG.GrowingFamilies.Version1.Base.csproj",
+		"/C/DotCom/pg-growing-families/PG.GrowingFamilies.Version1.Test/PG.GrowingFamilies.Version1.Test.csproj",
+		"/C/Users/user.PBIO-2428/Software/NUnit.Framework-3.6.1/CHANGES.txt",
+		"/C/Users/user.PBIO-2428/Software/NUnit.Framework-3.6.1/NOTICES.txt",
+		"/C/Users/user.PBIO-2428/perso/cake/example/build.ps1",
+		"/C/Users/user.PBIO-2428/perso/cake/example/build.cake",
+		"/C/Users/user.PBIO-2428/perso/cake/example/tools/packages.config",
+		"/C/DotCom/pg-growing-families/build.bat",
+		"/C/Users/user.PBIO-2428/score_training/training/sandbox/Website/App_Config/Include/ScoreTraining/Sites.Environment.config",
+		"/C/Users/user.PBIO-2428/score_training/training/sandbox/Website/App_Config/Include/ScoreTraining/Sites.config",
+		"/C/DotCom/pg-growing-families/sandbox/Website/App_Config/Include/PG.GrowingFamilies.Version1/PG.GrowingFamilies.Version1.Solr.DefaultIndexConfiguration.config",
+		"/C/DotCom/pg-growing-families/sandbox/Website/App_Config/Include/PG.GrowingFamilies.Version1/PG.GrowingFamilies.Version1.Sites.config",
+		"/C/DotCom/pg-growing-families/PG.GrowingFamilies.Version1.TDS.Master/Sandbox/LightweightBuild.ps1",
+		"/C/DotCom/pg-growing-families/gulpfile.js",
+		"/C/Users/user.PBIO-2428/Documents/ops_2016/BuildError-Log.txt",
+		"/C/DotCom/pg-growing-families/.nuget/NuGet.Config",
+		"/C/Users/user.PBIO-2428/score_training/training/.nuget/NuGet.Config",
+		"/C/Users/user.PBIO-2428/score_training/training/ScoreTraining.Web/packages.config",
+		"/C/Users/user.PBIO-2428/score_training/training/packages/PG.Consumer.BlueBox.DEV.files.1.1.1.112/tools/init.ps1",
+		"/C/Users/user.PBIO-2428/score_training/training/sandbox/Website/App_Config/Include/PG._Consumer/PG.Consumer.Pipelines.config",
+		"/C/DotCom/pg-growing-families/packages/PG.Consumer.BlueBox.DEV.files.1.1.1.112/tools/App_Config/Include/PG._Consumer/PG.Consumer.Pipelines.config",
+		"/C/DotCom/pg-growing-families/package.json",
+		"/C/Users/user.PBIO-2428/score_training/training/sandbox/Website/App_Config/Include/ScoreTraining/MediaSettings.config",
+		"/C/Users/user.PBIO-2428/mongo.ps",
+		"/C/Users/user.PBIO-2428/Desktop/Sami backup/txts/Sitecore Auth.txt",
+		"/C/inetpub/wwwroot/Sitecore8Training/Website/App_Config/Include/Sitecore.ContentSearch.Lucene.DefaultIndexConfiguration.config",
+		"/C/inetpub/wwwroot/AprilRelease/Website/App_Config/ConnectionStrings.config",
+		"/C/inetpub/wwwroot/AprilRelease/MB/config/Stage/App_Config/Include/PG.ABBs.Shared.PreferenceCenter.config",
+		"/C/Users/user.PBIO-2428/Documents/webdev2017/BNG/BNG Tool V3/PG.ABBs.MultiBrand.Tools.BabyName.BabyNameImport.exe.config",
+		"/C/Users/user.PBIO-2428/Documents/webdev2017/babyname data.sql",
+		"/C/inetpub/wwwroot/AprilRelease/Website/Web.config",
+		"/C/inetpub/wwwroot/FebRelease/Website/Web.config",
+		"/C/inetpub/wwwroot/AprilRelease/Website/App_Config/Include/ABBs/z.MultiBrand.Infrastructure.Pipelines.config",
+		"/C/inetpub/wwwroot/AprilRelease/Website/App_Config/Include/ABBs/z.MultiBrand.Gpoc.Pipelines.config",
+		"/C/inetpub/wwwroot/Sitecore8Training/Website/Web.config",
+		"/C/inetpub/wwwroot/Sitecore8Training/Website/App_Config/ConnectionStrings.config",
+		"/C/Users/user.PBIO-2428/Downloads/bootstrap-social-gh-pages/assets/css/docs.css",
+		"/C/Users/user.PBIO-2428/Software/mysql-5.7.15-win32/data/PBIO-2428.err",
+		"/C/Users/user.PBIO-2428/Software/hsqldb-2.3.4/hsqldb/sample/sampledata.sql",
+		"/C/Users/user.PBIO-2428/Software/hsqldb-2.3.4/hsqldb/sample/j-sample.sql",
+		"/C/Users/user.PBIO-2428/Software/hsqldb-2.3.4/hsqldb/sample/sample.sql",
+		"/C/Users/user.PBIO-2428/perso/mems_ambinina/hsqldb/data/dimensioning.script",
+		"/C/Users/user.PBIO-2428/perso/mems_ambinina/hsqldb/data/hsqldb/data/dimensioning.script",
+		"/C/Users/user.PBIO-2428/perso/mems_ambinina/hsqldb/data/hsqldb/data/dimensioning.lck",
+		"/C/Users/user.PBIO-2428/perso/mems_ambinina/hsqldb/data/hsqldb/data/dimensioning.properties",
+		"/C/Users/user.PBIO-2428/perso/mems_ambinina/hsqldb/data/dimensioning.properties",
+		"/C/inetpub/wwwroot/Sitecore8Training/Website/App_Config/Include/Sitecore.ContentSearch.Lucene.Indexes.Sharded.Core.config.example",
+		"/C/inetpub/wwwroot/Sitecore8Training/Website/App_Config/Include/SiteDefinition.config.example",
+		"/C/Users/user.PBIO-2428/Documents/DotCom/training/startbootstrap-heroic-features-gh-pages/README.md",
+		"/C/inetpub/wwwroot/Sitecore8Training/Website/Views/Web.config",
+		"/C/inetpub/wwwroot/Sitecore8Training/Website/Views/layouts/sample.cshtml",
+		"/C/inetpub/wwwroot/Sitecore8Training/Website/Views/Shared/ExperienceExplorerView.cshtml",
+		"/C/inetpub/wwwroot/Sitecore8Training/Code/.gitignore",
+		"/C/Users/user.PBIO-2428/Documents/ops_2016/pricespider/ex.csv",
+		"/C/Users/user.PBIO-2428/Software/hsqldb-2.3.4/hsqldb/bin/runManager.bat",
+		"/C/Users/user.PBIO-2428/Documents/DotCom/dotcom.text",
+		"/C/inetpub/wwwroot/AprilRelease/MB/config/Stage/App_Config/Include/ABBs/z.MultiBrand.ContentSearch.Lucene.DefaultIndexConfiguration.config",
+		"/C/Users/user.PBIO-2428/Dropbox/ambinina/donne_mems/output.json",
+		"/C/inetpub/wwwroot/AprilRelease/MB/config/Production CM/App_Config/Include/ABBs/PRODCluster1/z.MultiBrand.Products.RatingsAndReviewsSettings.config",
+		"/C/Users/user.PBIO-2428/perso/mems_ambinina/target/classes/public/index.html",
+		"/C/Users/user.PBIO-2428/Documents/tmp/mems/mems/resultat.html",
+		"/C/Users/user.PBIO-2428/Documents/webdev2017/Product oasis/css_js/all.min.js",
+		"/C/Users/user.PBIO-2428/Documents/script.sql",
+		"/C/Users/user.PBIO-2428/Documents/webdev2017/BNGBNG_Script.sql",
+		"/C/Monitoring/Monitoring.vshost.exe.config",
+		"/C/Users/user.PBIO-2428/Documents/webdev2017/loyalty/who has won/font.min.css",
+		"/C/Users/user.PBIO-2428/Documents/webdev2017/loyalty/member benefits/global.min.css",
+		"/C/inetpub/wwwroot/AprilRelease/MB/Code/codeAnalysis.ruleset",
+		"/C/Users/user.PBIO-2428/Dropbox/license_resharper.txt",
+		"/C/inetpub/wwwroot/AprilRelease/MB/Code/PG.ABBs.MultiBrand.Banners/PG.ABBs.MultiBrand.Banners.csproj",
+		"/C/Users/user.PBIO-2428/Documents/ops_2016/Sitecore Run Agent/z.MultiBrand.Task.SchedulerAgent.config",
+		"/C/Users/user.PBIO-2428/Documents/webdev2017/BNG/BNG_Script.sql",
+		"/C/inetpub/wwwroot/AprilRelease/MB/Code/PG.ABBs.MultiBrand.Tools.BabyName.BabyNameImport/bin/Debug/PG.ABBs.MultiBrand.Tools.BabyName.BabyNameImport.exe.config",
+		"/C/Users/user.PBIO-2428/Downloads/ThanksReg.txt",
+		"/C/Users/user.PBIO-2428/Downloads/PassChange.txt",
+		"/C/inetpub/wwwroot/AprilRelease/MB/config/Stage/App_Config/Include/ABBs/z.MultiBrand.ContentSearch.Lucene.Index.Pub.PampersRU.config",
+		"/C/Users/user.PBIO-2428/Dropbox/Notes/quatre bornes zip.note",
+		"/C/Users/user.PBIO-2428/Documents/encoding.cs",
+		"/C/Users/user.PBIO-2428/product_feed_en-US.xml",
+		"/C/Users/user.PBIO-2428/product_feed_el-GR.xml",
+		"/C/Users/user.PBIO-2428/product_feed_bg-BG.xml",
+		"/C/Users/user.PBIO-2428/product_feed_fr-FR.xml",
+		"/C/inetpub/wwwroot/AprilRelease/MB/config/Production CM/App_Config/Include/ABBs/z.MultiBrand.Products.ProductFeedBatch.Cluster3.config",
+		"/C/inetpub/wwwroot/AprilRelease/MB/config/Production CM/App_Config/Include/ABBs/z.MultiBrand.Products.ReviewBatch.Cluster3.config",
+		"/C/Users/user.PBIO-2428/PampersFR_fr-FR.xml",
+		"/C/inetpub/wwwroot/AprilRelease/MB/config/Stage/App_Config/Include/ABBs/UATMBCluster1/z.MultiBrand.Shared.SiteSettings.UAT.config",
+		"/C/Users/user.PBIO-2428/product_feed.xml",
+		"/C/inetpub/wwwroot/AprilRelease/Website/App_Config/Include/ABBs/z.MultiBrand.Shared.SiteSettings.config",
+		"/C/Users/user.PBIO-2428/PampersUS_en-US_03_02_2017_12_34_57.xml",
+		"/C/inetpub/wwwroot/AprilRelease/MB/config/Stage/App_Config/Include/ABBs/SITMBCluster2/z.MultiBrand.Products.RatingsAndReviewSettings.SIT.config",
+		"/C/inetpub/wwwroot/AprilRelease/MB/config/Stage/App_Config/Include/ABBs/UATMBCluster2/z.MultiBrand.Products.RatingsAndReviewSettings.UAT.config",
+		"/C/inetpub/wwwroot/AprilRelease/Website/_DEV/web.config",
+		"/C/inetpub/wwwroot/AprilRelease/Website/_DEV/TdsService.asmx",
+		"/C/Users/user.PBIO-2428/AppData/Local/Temp/7zOCC911845/z.Multibrand.Shared.RichtextEditor.config",
+		"/C/inetpub/wwwroot/AprilRelease/MB/config/Production CM/App_Config/Include/ABBs/PRODCluster3/z.MultiBrand.Shared.SiteSettings.config",
+		"/C/inetpub/wwwroot/AprilRelease/MB/config/Production CM/App_Config/Include/ABBs/z.MultiBrand.Products.ReviewBatch.config",
+		"/C/inetpub/wwwroot/AprilRelease/MB/config/Production CM/App_Config/Include/ABBs/z.MultiBrand.Products.ReviewBatch.Cluster2.config",
+		"/C/inetpub/wwwroot/AprilRelease/MB/config/Production CD/Cluster 1/App_Config/Include/ABBs/PRODCluster1/z.MultiBrand.Shared.SiteSettings.config",
+		"/C/inetpub/wwwroot/AprilRelease/MB/config/Stage/App_Config/Include/ABBs/z.MultiBrand.Products.ProductFeedBatch.Cluster2.config",
+		"/C/inetpub/wwwroot/AprilRelease/MB/config/Stage/App_Config/Include/ABBs/z.MultiBrand.Products.ProductFeedBatch.config",
+		"/C/inetpub/wwwroot/AprilRelease/MB/config/Stage/App_Config/Include/ABBs/z.MultiBrand.Products.ReviewBatch.config",
+		"/C/inetpub/wwwroot/AprilRelease/MB/config/Stage/App_Config/Include/ABBs/z.MultiBrand.Products.ReviewBatch.Cluster2.config",
+		"/C/inetpub/wwwroot/AprilRelease/MB/config/Production CM/App_Config/Include/ABBs/z.MultiBrand.Offers.Scheduling.Cluster3.config",
+		"/C/inetpub/wwwroot/AprilRelease/MB/config/Stage/App_Config/Include/ABBs/z.MultiBrand.Products.ProductFeedBatch.Cluster3.config",
+		"/C/inetpub/wwwroot/AprilRelease/MB/config/Stage/App_Config/Include/ABBs/z.MultiBrand.Products.ReviewBatch.Cluster3.config",
+		"/C/Users/user.PBIO-2428/Documents/ops_2016/root/import-inbox/feed_PampersUS_18_01_2017_10_04_04.xml",
+		"/C/inetpub/wwwroot/AprilRelease/MB/config/Production CM/App_Config/Include/SiteDefinition.CD3.config"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"<open files>",
+			"<open folders>",
+			"<current file>",
+			"<current selection>",
+			"<current file>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"replace",
+			"linte",
+			"method",
+			"brand",
+			"create",
+			"register",
+			"login",
+			"BeforeBuild",
+			"<Target",
+			"<target",
+			"PrepareForBuild",
+			"config",
+			"path",
+			"folder",
+			"data",
+			"pipeline",
+			"Integer",
+			"Double",
+			"java.lang.",
+			",",
+			"Double",
+			"Integer",
+			",",
+			"<Site",
+			"hidden",
+			"hidden tags",
+			"isMultiValue",
+			"non releva",
+			"gtin",
+			"aprilrelease",
+			"hidden tags",
+			"tag",
+			"primary",
+			"primarytag",
+			"tag",
+			"../../../",
+			"hub",
+			"RatingsAndReviewsSettings",
+			"Reviews",
+			"hidden",
+			"hidden tags",
+			"multilist",
+			"indexall",
+			"droptree",
+			"droptre",
+			"hidden tags",
+			"visible ta",
+			"tag",
+			"hub",
+			"product",
+			"fb",
+			"facebook",
+			"login",
+			"CA2202",
+			"Field\tValue\nItemId\t9869b5e4271a4bceb66a242e4b2df91d\nName\tDevo preocupar me se nao aumento de peso e estou gravida de sete meses\nLanguage\tpt-PT\nTemplateName\tArticle Detail Page\nTemplateId\ta3cb0a4a-dff3-471a-8587-abb05cf6590a\nSublayoutRenderingItemId\t{09050295-EF8C-4C55-B993-2CAA8CAFB085}\nParentCategory\tGravidez\nCategoryLandingPageLink\t/gravidez\nSubCategoryLandingPageLink\t/Gravidez/Gravidez-saudavel\nParentCategoryLandingPageName\tGravidez\nSubCategoryLandingPageName\tGravidez saudÃ¡vel\nTagName\t\nDisplayName\tDevo preocupar me se nao aumento de peso e estou gravida de sete meses\nPrimaryTags\t{DA7D79B7-4A28-4EC9-99C1-C1D544CF89AB}|{72A7535E-ABB8-4ED4-A278-B43A0A30F196}\nDisplayDate\t2016-10-07T00:00:00\nDisplayOnDetailPage\tfalse\nHiddenTags\t{5C115AAC-3B13-453E-A69E-FAA60AE6CB93}|{10F242CA-2284-4687-BFC4-254C109D4850}\nNumberOfComments\t1\nNumberOfLikes\t0\nNumberOfFavorites\t1\nNumberOfReviews\t1\nProductRange\t\nProductType\t\nRelatedPgBrands\t{D70ADA16-FF2D-4E03-9D0E-EA1EE56D9405}|{43241C7E-8699-4205-8C51-A67049CD5495}||Dodot||Dodot\nProductCatalogueRelatedItems\t{36BFC5B8-F31E-4708-BF86-5483B7D03212}\nProductCatalogueRelatedBrands\t{36BFC5B8-F31E-4708-BF86-5483B7D03212}\nProductCatalogueRelatedCategories\t{021FE1DE-BCF0-4A55-9188-21CD7E93939B}\nBrand\t\nReviewsOverallRatings\t1\nReviewsOverallRatingsRange\t1\nSearchAutoCompleteComputedField\t\nSearchComputedField\tdevo preocupar-me se nÃ£o aumento de peso e estou grÃ¡vida de sete meses? devo preocupar-me se nÃ£o aumento de peso e estou grÃ¡vida de sete meses? Ã£ difÃ­cil responder Ã£Â  sua pergunta de forma completa sem saber se antes da gravidez tinha excesso de peso ou se estava abaixo do seu peso ideal. embora tenha perdido 4 5 kg atÃ© ao final do segundo trimestre provavelmente nÃ£o precisa de se preocupar com este facto desde que se alimente com uma dieta nutritiva e ganhe 2 5 kg por mÃªs atÃ© ao parto conforme lhe recomendou o seu mÃ©dico. o quilo ou dois quilos que normalmente se ganha durante os primeiros trÃªs meses representam as alteraÃ§Ãµes no volume de sangue e no tecido materno. os 5 ou 5 5 kg que normalmente se ganha durante o segundo trimestre representam um aumento do volume sanguÃ­neo alteraÃ§Ãµes dos seios e do Ãºtero e acumulaÃ§Ã£o de tecidos adiposos da mÃ£e. o aumento de peso que se atribui ao desenvolvimento da placenta ao lÃ­quido amniÃ³tico e ao crescimento do bebÃ© nÃ£o acontece atÃ© ao terceiro trimestre pelo que Ã© provÃ¡vel que o seu bebÃ© nÃ£o tenha sido afectado. Ã£ possÃ­vel embora muito improvÃ¡vel que o facto de nÃ£o ganhar peso possa contribuir para o seu problema de apresentar sintomas de parto prematuro. se diminuir a sua actividade mantiver um descanso moderado na cama e fizer uma boa alimentaÃ§Ã£o estarÃ¡ a tomar todas as medidas adequadas para favorecer o crescimento de um bebÃ© saudÃ¡vel. devo preocupar-me se nÃ£o aumento de peso e estou grÃ¡vida de sete meses? 1Âº trimestre gravidez semana a semana\nSearchField\tDevo preocupar-me se nÃ£o aumento de peso e estou grÃ¡vida de sete meses?\nSecondaryTags\t{22AA2B66-581E-4683-99DC-DE53BA1F4795}|{333BC7FB-3AAD-4CA0-A812-BE25B7D61176}\nSelectedSubCategory\t{E244B788-6EF3-4931-8311-F9D3337C6F9C}\nSelectedTag\t\nSubCategory\tGravidez-saudavel\nTarget\t{6F6B7E4C-E7DB-4FE7-9398-186D1108E221}\nTier\t\nAuthorName\t\nDescription\t\nSpecialOfferSortOrder\t\nRelatedBrands\t\nRelatedBrand\t\nRelatedOffers\t\nProductCategoryTypes\t\nShortName\t\nRelatedContentType\t89381ae51b0a489599d50de25253c079\nEditorialContentTitleOrderString\tDevo preocupar-me se nÃ£o aumento de peso e estou grÃ¡vida de sete meses?\nEditorialContentTitleOrderNumber\t0\nOfferId\t\nOfferStartDate\t0001-01-01T00:00:00\nOfferDisplayDateTicks\t0\nNumberOfferRequested\t0\nOfferName\t\nRelatedOfferTarget\t\nOfferRelatedTargetType\t0\nRelatedGrowOnMileStone\t\nRewardCategory\t\nRelatedRewardType\t\nNumberOfPointsToRedeem\t0\nIsRewardActive\tfalse\nRewardEndDate\t0001-01-01T00:00:00\nNumberRewardStock\t\nSpecialOfferIdentifier\t\nRelatedReward\t\nRelatedRewardTier\t\nShortDescription\t\nRewardName\t\nRewardId\t\nPrimaryImage\t\nRelatedCatalog\t\nBreadcrumbTitle\tDevo preocupar-me se nÃ£o aumento de peso e estou grÃ¡vida de sete meses?\nProductTypeName\t\nBrandName\t\nFaceValue\t\nOfferBrandLogo\t\nProductRelateTypeName\t\nProductRelatedBrandName\t\nProductRelatedCategoryName\t\nIsHotReward\tfalse\nVariantRanges\t\nDiaperSizeRanges\t\nProductCatalogueDimension\tBaby Care,Diapers,Dodot,\nDetailPageUrl\t\nSecondaryImage\t\nRewardCreationDate\t0001-01-01T00:00:00\nRewardCategoryName\t\nRewardTypeName\t",
+			"culture=\"",
+			"<img",
+			"PampersUS",
+			"Pampers",
+			"us",
+			"Pampers",
+			"PampersCA",
+			"PampersSA,PampersIL,PampersRO,PampersCH,PampersAT",
+			"PampersGR,PampersVN,PampersSE,PampersNO,PampersFI,PampersID,PampersPK,PampersRU,PampersTR,",
+			"PampersGR,PampersVN,PampersSE,PampersNO,PampersFI,PampersID,PampersPK,PampersRU,PampersTR,PampersBR",
+			"PampersGR,PampersVN,PampersSE,PampersNO,PampersFI,PampersID,PampersPK,PampersRU,PampersTR,PampersBR,PampersAR",
+			"Pampers,PampersGR,PampersVN,PampersSE,PampersNO,PampersFI,PampersID,PampersPK,PampersRU,PampersTR,",
+			"Pampers,PampersGR,PampersVN,PampersSE,PampersNO,PampersFI,PampersID,PampersPK,PampersRU,PampersTR,PampersBR,",
+			",PampersGR,PampersVN,PampersSE,PampersNO,PampersFI,PampersID,PampersPK,PampersRU,PampersTR,PampersBR,PampersAR,PampersPE,PampersCI,PampersVE,PampersPA,PampersNI,PampersGT,PampersCR,PampersDO,PampersHN,PampersPY,PampersUY,PampersSV,PampersUK,PampersDE,PampersIE,PampersIN,PampersPH,PampersUS,PampersCA,PampersKZ,PampersSA,PampersIL",
+			"PampersBE",
+			"PampersHR",
+			"PampersCZ",
+			"Pampers",
+			"PampersCAFR",
+			"latam",
+			"reqObj",
+			"Pampers",
+			"-it",
+			"-ar",
+			"_",
+			"pampersUSES",
+			"pampersus",
+			"Sensitive Feuchttücher",
+			"pampersUSES",
+			"initialize features",
+			"C:/Users/user.PBIO-2428/perso/mas/export-en-kml/repastcity3/",
+			"at ",
+			"timeline",
+			"startDatePart",
+			"makeTimeline",
+			"WebClientFactory",
+			"webclien",
+			"victoria uk",
+			"pampersus",
+			"victoria",
+			"at ",
+			"number of reviews",
+			"victoriuk",
+			"victoriauk",
+			"victoria",
+			"Number of Reviews",
+			"number of review",
+			"at ",
+			"UNTOKENIZED",
+			"number of favorites",
+			"short_name",
+			"short",
+			"name",
+			"short",
+			"number of",
+			"number",
+			"tier",
+			"pampers uk",
+			"number ",
+			"number",
+			"short",
+			"number of ",
+			"page",
+			"login",
+			"Register",
+			"sitecore",
+			"app",
+			"admin",
+			"indexmoni",
+			"indexMonitor",
+			"Node",
+			"Nodes",
+			"at"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"/en/~/media/pampers/System/",
+			"/en/~/media/pampers/System",
+			"RatingAndReviewSettings",
+			"Culture=\"",
+			"RatingAndReviewSettings",
+			"Culture=\"",
+			"-",
+			"",
+			"2pprod",
+			"http://apr.pampers.com.pgsitecore.com",
+			"Culture",
+			"Site",
+			"ChannelAdvisor",
+			"2pprod"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "books_arrange.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 502,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								360,
+								360
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/user.PBIO-2428/AppData/Roaming/Sublime Text 3/Packages/User/YcmdCompletion.sublime-settings",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 216,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								97,
+								97
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "first_day_job.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1684,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								627,
+								627
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 198.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 148.0
+	},
+	"pinned_build_system": "",
+	"project": "cpp_tuto.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"ke",
+				"C:\\Users\\user.PBIO-2428\\Desktop\\Sami backup\\txts\\key_chain.key"
+			],
+			[
+				"resour",
+				"C:\\Users\\user.PBIO-2428\\Documents\\DotCom\\resources.doc"
+			],
+			[
+				"rsou",
+				"C:\\Users\\user.PBIO-2428\\Documents\\DotCom\\resources.doc"
+			],
+			[
+				"dot",
+				"C:\\Users\\user.PBIO-2428\\Documents\\DotCom\\resources.doc"
+			],
+			[
+				"si",
+				"C:\\Users\\user.PBIO-2428\\Desktop\\Sami backup\\txts\\Sitecore Auth.txt"
+			],
+			[
+				"dotcom",
+				"C:\\Users\\user.PBIO-2428\\Documents\\DotCom\\resources.doc"
+			],
+			[
+				"",
+				"C:\\inetpub\\wwwroot\\AprilRelease\\Website\\App_Config\\Include\\SiteDefinition.config"
+			],
+			[
+				"site",
+				"C:\\inetpub\\wwwroot\\AprilRelease\\Website\\App_Config\\Include\\SiteDefinition.config"
+			],
+			[
+				"comp",
+				"C:\\Users\\user.PBIO-2428\\Documents\\DotCom\\training\\componentization.file"
+			],
+			[
+				"compon",
+				"C:\\Users\\user.PBIO-2428\\Documents\\DotCom\\training\\componentization.file"
+			],
+			[
+				"mdoc",
+				"C:\\Users\\user.PBIO-2428\\Documents\\DotCom\\resources.doc"
+			],
+			[
+				"remar",
+				"C:\\Users\\user.PBIO-2428\\Documents\\webdev2017\\Product oasis\\remark.file"
+			],
+			[
+				"reviews",
+				"C:\\inetpub\\wwwroot\\AprilRelease\\MB\\config\\Stage\\App_Config\\Include\\ABBs\\SIT\\z.MultiBrand.Products.RatingsAndReviewSettings.SIT.config"
+			],
+			[
+				"reviewsett",
+				"C:\\inetpub\\wwwroot\\AprilRelease\\MB\\config\\Production CM\\App_Config\\Include\\ABBs\\PRODCluster1\\z.MultiBrand.Products.RatingsAndReviewsSettings.config"
+			],
+			[
+				"reviewse",
+				"C:\\inetpub\\wwwroot\\AprilRelease\\MB\\config\\Stage\\App_Config\\Include\\ABBs\\SIT\\z.MultiBrand.Products.RatingsAndReviewSettings.SIT.config"
+			],
+			[
+				"defaul",
+				"C:\\inetpub\\wwwroot\\AprilRelease\\Website\\App_Config\\Include\\ABBs\\z.MultiBrand.ContentSearch.Lucene.DefaultIndexConfiguration.config"
+			],
+			[
+				"sid",
+				"C:\\inetpub\\wwwroot\\AprilRelease\\Website\\App_Config\\Include\\SiteDefinition.config"
+			],
+			[
+				"rem",
+				"C:\\Users\\user.PBIO-2428\\Documents\\webdev2017\\Product oasis\\remark.file"
+			],
+			[
+				"rema",
+				"C:\\Users\\user.PBIO-2428\\Documents\\webdev2017\\Product oasis\\remark.file"
+			],
+			[
+				"ramark",
+				"C:\\Users\\user.PBIO-2428\\Documents\\webdev2017\\Product oasis\\remark.file"
+			],
+			[
+				"te",
+				"test id: 12483732"
+			],
+			[
+				"test",
+				"test id: 12483732"
+			],
+			[
+				"sited",
+				"C:\\inetpub\\wwwroot\\AprilRelease\\Website\\App_Config\\Include\\SiteDefinition.config"
+			],
+			[
+				"offerseeting",
+				"App_Config\\Include\\ABBs\\PRODCluster1\\z.MultiBrand.Offers.OffersSettings.config"
+			],
+			[
+				"offers",
+				"App_Config\\Include\\ABBs\\z.MultiBrand.Offers.OffersSettings.config"
+			],
+			[
+				"sitesetting",
+				"App_Config\\Include\\ABBs\\z.MultiBrand.Shared.SiteSettings.config"
+			],
+			[
+				"offersseetting",
+				"App_Config\\Include\\ABBs\\z.MultiBrand.Offers.OffersSettings.config"
+			],
+			[
+				"offerssettin",
+				"App_Config\\Include\\ABBs\\PRODCluster1\\z.MultiBrand.Offers.OffersSettings.config"
+			],
+			[
+				"index.pub",
+				"App_Config\\Include\\ABBs\\z.MultiBrand.ContentSearch.Lucene.Index.Pub.PampersUS.config"
+			],
+			[
+				"ratingandreview",
+				"App_Config\\Include\\ABBs\\SIT\\z.MultiBrand.Products.RatingsAndReviewSettings.SIT.config"
+			],
+			[
+				"ratingandreviewssetting",
+				"config\\Production CM\\App_Config\\Include\\ABBs\\PRODCluster2\\z.MultiBrand.Products.RatingsAndReviewsSettings.config"
+			],
+			[
+				"ratin",
+				"config\\Stage\\App_Config\\Include\\ABBs\\HotfixCluster1\\z.MultiBrand.Products.RatingsAndReviewsSettings.config"
+			],
+			[
+				"preferencecenter",
+				"config\\Production CD\\Cluster 1\\App_Config\\Include\\PG.ABBs.Shared.PreferenceCenter.config"
+			],
+			[
+				"offersett",
+				"App_Config\\Include\\ABBs\\PRODCluster1\\z.MultiBrand.Offers.OffersSettings.config"
+			],
+			[
+				"index.pub.pampersu",
+				"App_Config\\Include\\ABBs\\z.MultiBrand.ContentSearch.Lucene.Index.Pub.PampersUS.config"
+			],
+			[
+				"defaultindexconfiguration",
+				"config\\Production CM\\App_Config\\Include\\ABBs\\z.MultiBrand.ContentSearch.Lucene.DefaultIndexConfiguration.config"
+			],
+			[
+				"default",
+				"App_Config\\Include\\Sitecore.ContentSearch.Lucene.DefaultIndexConfiguration.config"
+			],
+			[
+				"sitede",
+				"App_Config\\Include\\SiteDefinition.config"
+			],
+			[
+				"ratingsandreviewsset",
+				"config\\Stage\\App_Config\\Include\\ABBs\\SITMBCluster1\\z.MultiBrand.Products.RatingsAndReviewSettings.SIT.config"
+			],
+			[
+				"prodcproductsettings.config",
+				"App_Config\\Include\\ABBs\\PRODCluster1\\z.MultiBrand.Products.RatingsAndReviewsSettings.config"
+			],
+			[
+				"productsetting",
+				"App_Config\\Include\\ABBs\\z.MultiBrand.Products.ProductSettings.config"
+			],
+			[
+				"reviewbatc",
+				"App_Config\\Include\\ABBs\\z.MultiBrand.Products.ReviewBatch.config"
+			],
+			[
+				"sitesett",
+				"App_Config\\Include\\ABBs\\z.MultiBrand.Shared.SiteSettings.config"
+			],
+			[
+				"sitesettin",
+				"App_Config\\Include\\ABBs\\z.MultiBrand.Shared.SiteSettings.config"
+			],
+			[
+				"sites",
+				"C:\\inetpub\\wwwroot\\AprilRelease\\Website\\App_Config\\Include\\ABBs\\z.MultiBrand.Shared.SiteSettings.config"
+			],
+			[
+				"due",
+				"/pregnancy-due-date-calculator"
+			],
+			[
+				"loy",
+				"C:\\inetpub\\wwwroot\\AprilRelease\\Website\\App_Config\\Include\\ABBs\\z.MultiBrand.Loyalty.LoyaltySettings.config"
+			],
+			[
+				"pamper",
+				"apr.pampers.com.pgsitecore.com/en-us/bazaarvoice-p"
+			],
+			[
+				"web",
+				"C:\\inetpub\\wwwroot\\AprilRelease\\Website\\Web.config"
+			],
+			[
+				"we",
+				"C:\\inetpub\\wwwroot\\AprilRelease\\Website\\Web.config"
+			],
+			[
+				"wweb",
+				"C:\\inetpub\\wwwroot\\AprilRelease\\Website\\Web.config"
+			],
+			[
+				"tree",
+				"C:\\Users\\user.PBIO-2428\\Documents\\sprint2\\PG.ABBs.Shared.TreeViewEx.Anticsrf.config"
+			],
+			[
+				"eclip",
+				"C:\\Users\\user.PBIO-2428\\Software\\eclipse-cpp-mars-2-win32-x86_64\\eclipse\\eclipse.ini"
+			],
+			[
+				"swi",
+				"C:\\inetpub\\wwwroot\\AprilRelease\\Website\\App_Config\\Include\\ABBs\\z.SwitchToJobServer-MultiBrand.config"
+			],
+			[
+				"exp",
+				"Export Tool Deployment checklist:"
+			],
+			[
+				"to",
+				"Tool Deployment CheckList"
+			],
+			[
+				"april",
+				"C:\\Users\\user.PBIO-2428\\Documents\\April Release\\April release task.txt"
+			],
+			[
+				"de",
+				"Tool Deployment CheckList"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "sco",
+		"selected_items":
+		[
+			[
+				"sco",
+				"C:\\Users\\user.PBIO-2428\\Documents\\DotCom\\score.sublime-project"
+			],
+			[
+				"score",
+				"C:\\Users\\user.PBIO-2428\\Documents\\DotCom\\score.sublime-project"
+			],
+			[
+				"scor",
+				"C:\\Users\\user.PBIO-2428\\Documents\\DotCom\\score.sublime-project"
+			],
+			[
+				"",
+				"C:\\Users\\user.PBIO-2428\\Documents\\DotCom\\score.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 303.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
