@@ -36,7 +36,6 @@ void Half(int& n) {
   cout << "------------------------" << endl;
 }
 
-// card_trick.cpp, Sami Ramahasindry
 bool AdjustOdd(int& n) {
   if (!(n % 2))
     return false;

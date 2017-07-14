@@ -5,7 +5,7 @@
 #include <cmath>
 using namespace std;
 
-#define kBiggestWeKnow    1225
+#define BIGGEST_WE_KNOW    1225
 
 int SeriesSum(int n) {
   return n * (n + 1) / 2;
@@ -25,7 +25,7 @@ bool IsSeriesSumAndPerfectSquare(int n) {
 }
 
 int main() {
-  int n = kBiggestWeKnow + 1;
+  int n = BIGGEST_WE_KNOW + 1;
   while (!(IsSeriesSumAndPerfectSquare(n))) {
     n++;
   }

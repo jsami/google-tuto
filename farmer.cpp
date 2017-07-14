@@ -3,11 +3,11 @@
 #include <limits>
 using namespace std;
 
-#define kHorsePrice   10
-#define kPigPrice     3
-#define kRabbitPrice  0.5
-#define kTotalPrice   100
-#define kTotalNumber  100
+#define HORSE_PRICE   10
+#define PIG_PRICE     3
+#define RABBIT_PRICE  0.5
+#define TOTAL_PRICE   100
+#define TOTAL_NUMBER  100
 
 bool AreSame(double l, double r) {
   return fabs(l - r) < numeric_limits<double>::epsilon();
@@ -15,20 +15,20 @@ bool AreSame(double l, double r) {
 
 bool CheckAnimals(int n_horse, int n_pig, int n_rabbit) {
   int total_number = n_horse + n_pig + n_rabbit;
-  double totalPrice = kHorsePrice * n_horse + kPigPrice * n_pig + kRabbitPrice * n_rabbit;
-  return (total_number == kTotalNumber) && AreSame(totalPrice, kTotalPrice);
+  double totalPrice = HORSE_PRICE * n_horse + PIG_PRICE * n_pig + RABBIT_PRICE * n_rabbit;
+  return (total_number == TOTAL_NUMBER) && AreSame(totalPrice, TOTAL_PRICE);
 }
 
 int MaxNumber(double price) {
-  int max = (int)kTotalPrice / price;
-  return max < kTotalNumber ? max : kTotalNumber;
+  int max = (int)TOTAL_PRICE / price;
+  return max < TOTAL_NUMBER ? max : TOTAL_NUMBER;
 }
 
 int main() {
   int n_pig, n_horse, n_rabbit;
-  int max_horse = MaxNumber(kHorsePrice);
-  int max_pig = MaxNumber(kPigPrice);
-  int max_rabbit = MaxNumber(kRabbitPrice);
+  int max_horse = MaxNumber(HORSE_PRICE);
+  int max_pig = MaxNumber(PIG_PRICE);
+  int max_rabbit = MaxNumber(RABBIT_PRICE);
 
   bool combination_found = false;
   for (n_horse = 1; n_horse < max_horse && !combination_found; ) {

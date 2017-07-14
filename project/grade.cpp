@@ -5,11 +5,11 @@
 #include <string>
 using namespace std;
 
-#define kAssignmentCoeff  0.4
-#define kMidTermCoeff     0.15
-#define kFinalExamCoeff   0.35
-#define kClassParticipationCoeff 0.1
-#define kNumberOfAssignments 4
+#define ASSIGNMENT_COEFF  0.4
+#define MIDTERM_COEFF     0.15
+#define FINAL_EXAM_COEFF   0.35
+#define CLASS_PARTICIPATION_COEFF 0.1
+#define NUMBER_OF_ASSIGNMENTS 4
 
 double GetScore(const string& scoreName) {
   double score;
@@ -18,28 +18,27 @@ double GetScore(const string& scoreName) {
 }
 
 double AssignmentsGrade() {
-  double totalScore = 0;
-  string assignmentRank[kNumberOfAssignments] = { "first", "second", "third", "fourth" };
-  for(int i = 0; i < kNumberOfAssignments; i++) {
-    totalScore += GetScore(assignmentRank[i] + " assignment");
+  double total_score = 0;
+  string assignment_rank[NUMBER_OF_ASSIGNMENTS] = { "first", "second", "third", "fourth" };
+  for(int i = 0; i < NUMBER_OF_ASSIGNMENTS; i++) {
+    total_score += GetScore(assignment_rank[i] + " assignment");
   }
-  return totalScore * kAssignmentCoeff / kNumberOfAssignments;
+  return total_score * ASSIGNMENT_COEFF / NUMBER_OF_ASSIGNMENTS;
 }
 
 double MidTermGrade() {
   double score = GetScore("midterm");
-  return score * kMidTermCoeff;
+  return score * MIDTERM_COEFF;
 }
 
 double FinalExamGrade() {
   double score = GetScore("final");
-  return score * kFinalExamCoeff;
+  return score * FINAL_EXAM_COEFF;
 }
 
 double ClassParticipationGrade() {
-
   double score = GetScore("section grade");
-  return score * kClassParticipationCoeff;
+  return score * CLASS_PARTICIPATION_COEFF;
 }
 
 int main() {

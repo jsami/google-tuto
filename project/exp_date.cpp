@@ -1,21 +1,21 @@
 // exp_date.cpp, Sami Ramahasindry
-// Decode encoded experation date on a food product eticket
+// Decode encoded expiration date on a food product eticket
 
 #include <iostream>
 #include <sstream>
 #include <string>
 using namespace std;
 
-#define kYearStart      1999
+#define YEAR_START      1999
 
-const string kMonths[12] = {"Jan", "Feb", "Mar", "Apr", "May", "Jun",
+const string MONTHS[12] = {"Jan", "Feb", "Mar", "Apr", "May", "Jun",
                             "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"};
 
 
 string GetMonth(const string& code) {
   string map = "ABCDEFGHIJKL";
   int index = map.find(code[0]);
-  return kMonths[index];
+  return MONTHS[index];
 }
 
 int GetDate(const string& code) {
@@ -28,7 +28,7 @@ int GetDate(const string& code) {
 int GetYear(const string& code) {
   string map = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
   int offset = map.find(code[3]);
-  return kYearStart + offset;
+  return YEAR_START + offset;
 }
 
 string Decode(const string& code) {

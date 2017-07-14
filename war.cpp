@@ -7,14 +7,14 @@
 #include <time.h>
 using namespace std;
 
-#define kEnemyMaxDistance   1000
-#define kEnemyMinDistance   1
-#define kMaxCannonBalls     10
-#define kGravity            32.2
-#define kVelocity           200.0
-#define kPi                 3.14159265
-#define kMinTolerance       -2
-#define kMaxTolerance       2
+#define ENEMY_MAX_DISTANCE   1000
+#define ENEMY_MIN_DISTANCE   1
+#define MAX_CANNON_BALLS     10
+#define GRAVITY              32.2
+#define VELOCITY             200.0
+#define PI                   3.14159265
+#define TOLERANCE_MIN        -2
+#define TOLERANCE_MAX        2
 
 
 void StartUp() {
@@ -27,18 +27,18 @@ void StartUp() {
 
 int GetEnemyDistance() {
   srand(time(NULL));
-  return rand() % kEnemyMaxDistance + kEnemyMinDistance;
+  return rand() % ENEMY_MAX_DISTANCE + ENEMY_MIN_DISTANCE;
 }
 
 double GetShootAngle() {
   double angle = 0;
   cout << "What angle? "; cin >> angle;
-  return angle * kPi / 180;
+  return angle * PI / 180;
 }
 
 double Shoot(double angle, int target_distance) {
-  double time_in_air = (2.0 * kVelocity * sin(angle)) / kGravity;
-  int distance = round((kVelocity * cos(angle)) * time_in_air);
+  double time_in_air = (2.0 * VELOCITY * sin(angle)) / GRAVITY;
+  int distance = round((VELOCITY * cos(angle)) * time_in_air);
   return distance - target_distance;
 }
 
@@ -50,7 +50,7 @@ int Fire() {
   do {
     shoot_angle = GetShootAngle();
     double shoot_deviation = Shoot(shoot_angle, enemy_distance);
-    if (kMinTolerance <= shoot_deviation && kMaxTolerance >= shoot_deviation) {
+    if (TOLERANCE_MIN <= shoot_deviation && TOLERANCE_MAX >= shoot_deviation) {
       cout << "You hit him!!!" << endl;
       cout << "It took " << shots << " shots.";
       return 1;
@@ -62,8 +62,8 @@ int Fire() {
       cout << "You under shot by " << -shoot_deviation << endl;
     }
     shots++;
-  } while (shots <= kMaxCannonBalls);
-  cout << "You have used all of your " << kMaxCannonBalls << " cannonballs." << endl;
+  } while (shots <= MAX_CANNON_BALLS);
+  cout << "You have used all of your " << MAX_CANNON_BALLS << " cannonballs." << endl;
   return 0;
 }
 
