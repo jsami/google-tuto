@@ -5,9 +5,9 @@
 #include <string>
 using namespace std;
 
-#define kNumberOfDigits  3
+#define NUMBER_OF_DIGITS  3
 
-const char kRemainderNames[3] = {'X', 'Y', 'Z'};
+const char REMAINDER_NAMES[3] = {'X', 'Y', 'Z'};
 
 
 int GetInput() {
@@ -22,9 +22,9 @@ int Rotate(int input) {
 }
 
 void PopulateRemainders(int* remainders, int input) {
-  for (int i = 0; i < kNumberOfDigits; i++) {
+  for (int i = 0; i < NUMBER_OF_DIGITS; i++) {
     remainders[i] = input % 11;
-    cout << "remainder of " << input << " : " << kRemainderNames[i] << " = " << remainders[i] << endl;
+    cout << "remainder of " << input << " : " << REMAINDER_NAMES[i] << " = " << remainders[i] << endl;
     input = Rotate(input);
   }
   cout << "------------------------" << endl;
@@ -55,12 +55,12 @@ bool AdjustOdd(int& n) {
 }
 
 void SumRemaindersThenHalf(int* remainders) {
-  int sums[kNumberOfDigits];
+  int sums[NUMBER_OF_DIGITS];
   int sum_idx = 0;
-  for (int i = 0; i < kNumberOfDigits - 1; i++) {
-    for (int j = i + 1; j < kNumberOfDigits; j++) {
+  for (int i = 0; i < NUMBER_OF_DIGITS - 1; i++) {
+    for (int j = i + 1; j < NUMBER_OF_DIGITS; j++) {
       sums[sum_idx] = remainders[i] + remainders[j];
-      cout << kRemainderNames[i] << "+" << kRemainderNames[j] << " = " << sums[sum_idx] << endl;
+      cout << REMAINDER_NAMES[i] << "+" << REMAINDER_NAMES[j] << " = " << sums[sum_idx] << endl;
       bool is_nine = AdjustOdd(sums[sum_idx]);
       if(is_nine)
         continue;
@@ -72,7 +72,7 @@ void SumRemaindersThenHalf(int* remainders) {
 
 int main() {
   int input = GetInput();
-  int remainders[kNumberOfDigits];
+  int remainders[NUMBER_OF_DIGITS];
   PopulateRemainders(remainders, input);
   SumRemaindersThenHalf(remainders);
   return 0;
